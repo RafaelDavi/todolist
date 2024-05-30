@@ -1,0 +1,48 @@
+.Lista {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.Lista hr {
+    width: 85%;
+    text-align: left;
+    margin: 5px 5% 20px 5%;
+    padding: 0;
+    border-color: #35383e80;
+}
+
+.Lista h2 {
+    width: 85%;
+    text-align: left;
+    margin: 0 5%;
+    padding: 0;
+    color: #35383e80;
+}
+
+.Lista ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Lista li,
+input {
+    list-style: none;
+    font-weight: 700;
+    width: 90%;
+    padding: 12px 12px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-align: left;
+    background-color: #eeeeee;
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    transition: 1s;
+}
+
+.Lista li input {
+    border: none;
+    font-size: 18px;
+}

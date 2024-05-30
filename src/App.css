@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.App {
+  text-align: center;
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  width: 30%;
+  margin-left: 35%;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 100vh;
+}
+
+
+/* Estilos para telas menores que 600px de largura */
+@media screen and (max-width: 600px) {
+  .App {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+/* Estilos para telas maiores que 1200px de largura */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .App {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+select {
+  width: 50px;
+  /* Ancho del select */
+  padding: 0px;
+  /* Espaciado interno */
+  font-size: 12px;
+  /* Tamaño de fuente */
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  /* Borde redondeado */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #333;
+  /* Color del texto */
+}
+
+select option {
+  font-size: 14px;
+  /* Tamaño de fuente de las opciones */
+}
+
+select:focus {
+  outline: none;
+  /* Quita el borde de enfoque predeterminado */
+  border-color: #66afe9;
+  /* Color del borde al enfocar */
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+  /* Sombra al enfocar */
+}
+
+.adicionar{
+  list-style: none;
+  font-weight: 700;
+  width: 90%;
+  padding: 12px 12px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  text-align: left;
+  background-color: #eeeeee;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex; 
+  align-items: center;
+}
